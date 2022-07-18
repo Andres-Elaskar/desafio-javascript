@@ -77,10 +77,10 @@ function borrarProductoDelCarrito(idDelproducto){
 borrarProductoDelCarrito(0043);
 
 const agregarAlCarrito = [
-    {'Almendras Non Pareil',stock:15, price:3500},
-]
-const total = agregarAlCarrito.reduce((acumulador,elemento) => acumulador + elemento, 0)
-console.log(total)
+    {name:'Almendras Non Pareil',stock:15, price:3500},
+];
+const total = agregarAlCarrito.reduce((acumulador,elemento) => acumulador + elemento, 0);
+console.log(total);
 
 
 
