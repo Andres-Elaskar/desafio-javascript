@@ -57,7 +57,7 @@ console.log(producto0001)
 const carrito = [];
 
 function agregarAlCarrito(producto){
-    //validar stock
+    validar.stock
     carrito.push(producto);
     console.log(carrito);
 }
@@ -76,11 +76,11 @@ function borrarProductoDelCarrito(idDelproducto){
 
 borrarProductoDelCarrito(0043);
 
-const agregarAlCarrito = [
-    {name:'Almendras Non Pareil',stock:15, price:3500},
-];
-const total = agregarAlCarrito.reduce((acumulador,elemento) => acumulador + elemento, 0);
-console.log(total);
+//const agregarAlCarrito = [
+    //{name:'Almendras Non Pareil',stock:15, price:3500},
+//];
+//const total = agregarAlCarrito.reduce((acumulador,elemento) => acumulador + elemento, 0);
+//console.log(total);
 
 
 
